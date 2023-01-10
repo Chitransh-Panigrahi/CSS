@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Q10</title>
+
+<style>
+  body {
+    background-color: rgb(182, 175, 175);
+
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  form {
+    text-align: center;
+  }
+
+  input.c1 {
+    background-color: #f5b28c;
+    font-size: 20px;
+    color: brown;
+    border-radius: 5px;
+    border-style: none;
+    height: 40px;
+  }
+
+  #a1 {
+    width: 200px;
+    height: 20px;
+    border-color: blue;
+    border-width: 2px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  select {
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    border-color: blue;
+    border-width: 2px;
+    border-radius: 5px;
+  }
+</style>
+</head>
+<body>
+  <img src="https://images.squarespace-cdn.com/content/v1/57713a8e2994cae381dd86fe/1510405002757-FP2W9HV8ZA0HP2IF3O6A/SOA-PNG.png">
+  <h3>
+    Registration
+  </h3>
+
+
+  <form action="mailto:chitranshpanigrahi02@gmail.com" method="post" enctype="text/plain">
+    <center>
+
+
+      <table>
+        <tr>
+          <td>
+            <div>
+              <label>UserName:</label>
+          </td>
+          <td>
+            <input type="text" id="a1" name="fname" value="Enter Name..."><br>
+            </div><br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div>
+              <label>Email:</label>
+          </td>
+          <td><input type="email" value="Enter email..." id="a1">
+            </div><br><br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div>
+              <label>Mobile:</label>
+          </td>
+          <td>
+            <input type="tel" value="Enter Mobile Number..." id="a1">
+            </div><br><br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div>
+              <label for="gender">Gender:</label>
+          </td>
+          <td>
+            <label><input type="radio" name="radio">Female</label>&nbsp&nbsp<label><input type="radio" Name="radio">Male</label>
+            </div><br><br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div>
+              <label>City:</label>
+          </td>
+          <td><select name="City">
+              <option value="Cuttack">Cuttack</option>
+              <option value="Bhubaneswar">Bhubaneswar</option>
+              <option value="Berhampur">Berhampur</option>
+              <option value="Balasore">Balasore</option>
+            </select>
+            </div><br><br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div>
+              <label>Password:</label>
+          </td>
+          <td>
+            <input type="tel" value="Enter Password..." id="a1" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+            </div><br><br>
+          </td>
+        </tr>
+      </table>
+    </center>
+    <div>
+      <input type="submit" value="		sign up			" class="c1">
+    </div><br><br>
+
+
+  </form>
+</body>
+
+</html>
